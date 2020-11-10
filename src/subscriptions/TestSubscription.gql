@@ -1,0 +1,6 @@
+subscription TestSubscription {
+  postAdded {
+    author
+    comment
+  }
+}

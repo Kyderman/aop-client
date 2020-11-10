@@ -1,0 +1,5 @@
+query ValidateUserQuery($idToken: String) {
+  validateUser(idToken: $idToken) {
+    _id
+  }
+}
